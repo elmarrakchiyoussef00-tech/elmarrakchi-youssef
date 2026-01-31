@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Portfolio — EL MARRAKCHI YOUSSEF | Ingénieur Biomédical</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<!-- Roboto font (regular + italic, 100..900) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="main-nav">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <i class="fas fa-user-md"></i> YOUSSEF EL MARRAKCHI
+        </div>
+
+        <button class="mobile-menu-btn" id="mobileMenuBtn">
+            <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about" class="active">Accueil</a></li>
+            <li><a href="#formations">Formation</a></li>
+            <li><a href="#experiences">Expériences</a></li>
+            <li><a href="#competences">Compétences</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Section Hero inspirée de Monica Taylor -->
+<section class="hero-section" id="about">
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-greeting">
+                <i class="fas fa-hand-wave"></i> Bonjour — je suis
+            </div>
+            <h1 class="hero-name">EL MARRAKCHI YOUSSEF</h1>
+            <h2 class="hero-title">Étudiant Ingénieur Biomédical — Électromécanique & Innovation</h2>
+            <p class="hero-description">
+                Je m'appelle Youssef El Marrakchi. Étudiant en génie biomédical avec une formation en électromécanique, je conçois et maintiens des dispositifs médicaux en combinant électronique, mécanique et programmation. Je recherche un stage (2025) pour mettre en pratique mes compétences en instrumentation, automatisation et validation de dispositifs, et contribuer à des projets d'innovation en santé.
+            </p>
+            <div class="cta-buttons">
+                <button id="contactBtn" class="btn btn-primary" type="button">
+                    <i class="fas fa-envelope"></i> Me contacter
+                </button>
+                <a href="data/cv.pdf" class="btn btn-secondary" id="downloadCv" target="_blank" rel="noopener">
+                    <i class="fas fa-download"></i> Télécharger CV
+                </a>
+            </div>
+        </div>
+        <div class="hero-image-container">
+            <div>
+                <img src="data/me.jpg" alt="EL MARRAKCHI YOUSSEF" class="hero-image">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contenu principal -->
+<div class="container">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <div class="photo-container">
+            <img src="data/pic.jpg" alt="Photo de Youssef EL MARRAKCHI" />
+        </div>
+
+        <div class="sidebar-section">
+            <h3><i class="fas fa-user-circle"></i> Profil</h3>
+            <p>Ingénieur biomédical en devenir, je suis animé par une motivation inébranlable et une autonomie affirmée, avec une passion profonde pour l'innovation dans le domaine médical. À la recherche d'un stage enrichissant, je souhaite perfectionner mes aptitudes techniques tout en apportant une contribution significative à l'optimisation des systèmes de santé.</p>
+        </div>
+
+        <div class="sidebar-section" id="contact">
+            <h3><i class="fas fa-address-card"></i> Contact</h3>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> <strong>Téléphone :</strong> +212 700 343 399</p>
+                <p><i class="fas fa-envelope"></i> <strong>Email :</strong> <a href="mailto:Elmarrakchiyoussef4@gmail.com">Elmarrakchiyoussef4@gmail.com</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> <strong>Localisation :</strong> Essaouira, Maroc</p>
+                <p><i class="fab fa-linkedin"></i> <strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/youssef-elmarrakchi-ba534627a" target="_blank">youssef-elmarrakchi</a></p>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <h3><i class="fas fa-language"></i> Langues</h3>
+            <div class="chip-container">
+                <span class="chip">Français (B2)</span>
+                <span class="chip">Anglais (B1)</span>
+                <span class="chip">Arabe (Langue maternelle)</span>
+            </div>
+        </div>
+
+        <div class="sidebar-section">
+            <h3><i class="fas fa-laptop-code"></i> Logiciels & Technologies</h3>
+            <div class="chip-container">
+                <span class="chip chip-software">MATLAB</span>
+                <span class="chip chip-software">CATIA V5</span>
+                <span class="chip chip-software">SolidWorks</span>
+                <span class="chip chip-software">TIA Portal</span>
+                <span class="chip chip-software">Automation Studio</span>
+                <span class="chip chip-software">Dialux EVO</span>
+                <span class="chip chip-software">PL7</span>
+                <span class="chip chip-software">SQL</span>
+                <span class="chip chip-software">Python</span>
+                <span class="chip chip-software">C/C++</span>
+            </div>
+        </div>
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <section class="section-card" id="formations">
+            <h3><i class="fas fa-graduation-cap"></i> Formation</h3>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">2024 — 2027</div>
+                <div class="timeline-title">Ingénieur Biomédical</div>
+                <div class="timeline-subtitle">SUPTECH SANTÉ MOHAMMEDIA</div>
+                <p>Formation d'ingénieur en génie biomédical spécialisée dans la conception, le développement et la validation de dispositifs médicaux. Cours avancés en instrumentation médicale, traitement du signal biomédical, imagerie médicale, et régulation des dispositifs médicaux selon les normes internationales (ISO 13485, CE marking).</p>
+                <ul>
+                    <li>Conception et prototypage de dispositifs médicaux</li>
+                    <li>Analyse de risques et validation de produits médicaux</li>
+                    <li>Technologies émergentes : IoT médical, IA en santé</li>
+                    <li>Projets pratiques en milieu hospitalier</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2022 — 2024</div>
+                <div class="timeline-title">Technicien spécialisé en Électromécanique</div>
+                <div class="timeline-subtitle">Institut des Mines de Touissit</div>
+                <p>Formation technique supérieure en électromécanique avec spécialisation en automatisation industrielle et maintenance prédictive. Acquisition de compétences solides en programmation d'automates, conception de systèmes de contrôle-commande, et gestion de maintenance.</p>
+                <ul>
+                    <li>Programmation TIA Portal et PL7 pour automates Siemens/Schneider</li>
+                    <li>Conception de schémas électriques et pneumatiques</li>
+                    <li>Maintenance préventive et corrective d'équipements industriels</li>
+                    <li>Projet de fin d'études : Système d'extinction incendie automatisé</li>
+                </ul>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-date">2021 — 2022</div>
+                <div class="timeline-title">Baccalauréat en Sciences physiques</div>
+                <div class="timeline-subtitle">Lycée Aknsous Essaouira</div>
+                <p>Baccalauréat scientifique option physique-chimie avec mention Bien. Formation solide en mathématiques, physique, chimie et sciences de l'ingénieur, préparant aux études supérieures techniques.</p>
+                <ul>
+                    <li>Excellence en mathématiques et physique appliquée</li>
+                    <li>Projets scientifiques : Robotique éducative, expériences physiques</li>
+                    <li>Participation à des concours scientifiques régionaux</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section-card" id="experiences">
+            <h3><i class="fas fa-briefcase"></i> Expériences Professionnelles</h3>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">06/2025 — 07/2025</div>
+                <div class="timeline-title">Stage — AKDITAL TANGER</div>
+                <p>Gestion GMAO, maintenance des équipements biomédicaux, participation aux appels d'offres pour l'acquisition de matériel médical.</p>
+                <ul>
+                    <li>Maintenance préventive et corrective d'équipements biomédicaux</li>
+                    <li>Participation à la gestion de parc matériel (GMAO)</li>
+                    <li>Analyse technique pour appels d'offres</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item" >
+                <div class="timeline-date">04/2024 — 06/2024</div>
+                <div class="timeline-title">Stage PFE — VINCI ENERGIES / ACTIMIUM</div>
+                <div class="timeline-subtitle">Projet de fin d'études</div>
+                <p>Conception et mise en œuvre d'une solution de contrôle-commande avec TIA Portal pour un système d'extinction incendie à DCI Jorf Lasfar.</p>
+                <ul>
+                    <li>Programmation d'automates Siemens avec TIA Portal</li>
+                    <li>Conception des schémas électriques et pneumatiques</li>
+                    <li>Tests et validation du système automatisé</li>
+                </ul>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">01/08/2024 — 01/10/2024</div>
+                <div class="timeline-title">Automaticien — VINCI ENERGIES</div>
+                <p>Intervention sur des systèmes automatisés industriels, programmation d'automates et dépannage de systèmes de contrôle-commande.</p>
+            </div>
+            
+            <div class="timeline-item">
+                <div class="timeline-date">Stages antérieurs</div>
+                <div class="timeline-title">Expériences diversifiées en maintenance</div>
+                <p><strong>Aya Gold & Silver</strong> — Maintenance électrique industrielle<br>
+                <strong>Hôtel Atlas & Spa</strong> — Maintenance climatisation & signalisation</p>
+            </div>
+        </section>
+
+        <section class="section-card" id="competences">
+            <h3><i class="fas fa-cogs"></i> Compétences Techniques</h3>
+            
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4><i class="fas fa-heartbeat"></i> Biomédical</h4>
+                    <ul>
+                        <li>Anatomie et physiologie</li>
+                        <li>Instrumentation médicale</li>
+                        <li>Maintenance biomédicale</li>
+                        <li>Traitement du signal biomédical</li>
+                        <li>Réglementation des dispositifs médicaux</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4><i class="fas fa-bolt"></i> Électromécanique</h4>
+                    <ul>
+                        <li>Réalisation de schémas électriques</li>
+                        <li>Circuits pneumatiques et hydrauliques</li>
+                        <li>Essais des machines électriques</li>
+                        <li>Conception mécanique/électrique</li>
+                        <li>Câblage industriel et dépannage</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4><i class="fas fa-code"></i> Informatique & Programmation</h4>
+                    <ul>
+                        <li>Programmation (C/C++/Python/SQL)</li>
+                        <li>Modélisation 3D (CATIA, SolidWorks)</li>
+                        <li>Automatisation (TIA Portal, PL7)</li>
+                        <li>Traitement de données (MATLAB)</li>
+                        <li>Simulation (Automation Studio, Dialux)</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h4><i class="fas fa-chart-line"></i> Méthodes & Management</h4>
+                    <ul>
+                        <li>Méthodes 5S, 5M</li>
+                        <li>AMDEC (Analyse des Modes de Défaillance)</li>
+                        <li>Méthode Pareto</li>
+                        <li>Gestion de maintenance (GMAO)</li>
+                        <li>Analyse de risques</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h3><i class="fas fa-certificate"></i> Certificats & Projets</h3>
+            
+            <div class="certificates-container">
+                <div class="certificate-card">
+                    <h4><i class="fas fa-medal"></i> Conception d'un mandrin</h4>
+                    <p>Certification obtenue après la conception complète d'un mandrin industriel, incluant modélisation 3D, plans de fabrication et validation technique.</p>
+                </div>
+                
+                <div class="certificate-card">
+                    <h4><i class="fas fa-robot"></i> Robot solveur de labyrinthe Arduino</h4>
+                    <p>Projet certifié : conception et réalisation d'un robot autonome programmable avec Arduino capable de résoudre un labyrinthe complexe.</p>
+                </div>
+                
+                <div class="certificate-card">
+                    <h4><i class="fas fa-project-diagram"></i> Système d'extinction incendie automatisé</h4>
+                    <p>Projet de fin d'études avec certification industrielle : conception d'un système complet de contrôle-commande pour extinction incendie.</p>
+                </div>
+            
+                <div class="certificate-card">
+                    <h4><i class="fas fa-hospital"></i> Gestion des dispositifs médicaux hospitaliers</h4>
+                    <p>Développement d’une application web pour l’inventaire, la traçabilité et la gestion des équipements médicaux multi-services, avec contrôle d’accès par rôles. Tech : PHP, MySQL, HTML, CSS, JavaScript.</p>
+                </div>
+
+                <div class="certificate-card">
+                    <h4><i class="fas fa-microscope"></i> Projet IA Médicale — Classification d'images CT rénales</h4>
+                    <p>Développement d'un modèle de deep learning basé sur MobileNetV2 (transfer learning) pour classifier les images CT du rein (Normal, Kyste, Calcul, Tumeur). Prétraitement d'images, entraînement sur Google Colab (GPU) et déploiement avec interface web.</p>
+                </div>
+                
+                <div class="certificate-card">
+                    <h4><i class="fas fa-chart-line"></i> Certification Power BI</h4>
+                    <p>Certification en Power BI validant des compétences en analyse de données, modélisation, création de tableaux de bord interactifs, DAX et business intelligence pour l’aide à la prise de décision.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-card">
+            <h3><i class="fas fa-star"></i> Qualités Personnelles</h3>
+            
+            <div class="qualities-grid">
+                <div class="quality-item">
+                    <i class="fas fa-user-check"></i>
+                    <h4>Responsabilité</h4>
+                </div>
+                
+                <div class="quality-item">
+                    <i class="fas fa-users"></i>
+                    <h4>Esprit d'équipe</h4>
+                </div>
+                
+                <div class="quality-item">
+                    <i class="fas fa-lightbulb"></i>
+                    <h4>Résolution de problèmes</h4>
+                </div>
+                
+                <div class="quality-item">
+                    <i class="fas fa-dumbbell"></i>
+                    <h4>Discipline sportive</h4>
+                </div>
+                
+                <div class="quality-item">
+                    <i class="fas fa-bullseye"></i>
+                    <h4>Rigueur</h4>
+                </div>
+                
+                <div class="quality-item">
+                    <i class="fas fa-rocket"></i>
+                    <h4>Innovation</h4>
+                </div>
+            </div>
+        </section>
+    </main>
+</div>
+
+<!-- Contact Modal -->
+<div id="contactModalOverlay" class="modal-overlay" aria-hidden="true">
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="contactModalTitle">
+        <div class="modal-header">
+            <h3 id="contactModalTitle"><i class="fas fa-address-card"></i> Contact</h3>
+            <button class="close-btn" id="contactModalClose" aria-label="Fermer">&times;</button>
+        </div>
+        <div class="modal-body">
+            <p><strong>Téléphone :</strong> <a href="tel:+212700343399">+212 700 343 399</a></p>
+            <p><strong>Email :</strong> <a href="mailto:Elmarrakchiyoussef4@gmail.com">Elmarrakchiyoussef4@gmail.com</a></p>
+            <p><strong>Localisation :</strong> <a href="https://www.google.com/maps/search/?api=1&query=Essaouira%2C+Maroc" target="_blank" rel="noopener">Essaouira, Maroc</a></p>
+            <p><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/youssef-elmarrakchi-ba534627a" target="_blank" rel="noopener">youssef-elmarrakchi</a></p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="footer-content">
+        <div class="footer-logo">
+            <i class="fas fa-user-md"></i> YOUSSEF EL MARRAKCHI
+        </div>
+        <p class="footer-text">Futur Ingénieur Biomédical — Passionné par l'innovation médicale</p>
+        
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/youssef-elmarrakchi-ba534627a" target="_blank" class="social-link">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:Elmarrakchiyoussef4@gmail.com" class="social-link">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="tel:+212700343399" class="social-link">
+                <i class="fas fa-phone"></i>
+            </a>
+        </div>
+        
+        <p class="copyright">© 2024 — Portfolio Professionnel. Tous droits réservés.</p>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
